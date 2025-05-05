@@ -1,8 +1,7 @@
-export default function ProfileCard(props){
-    const{username,bio,location}=props;
+export default function ProfileCard({student}){
     return(
         <div>
-            <h2>{username} {bio} {location}</h2>
+         <h1>{student.name}</h1>
         </div>
     )
 

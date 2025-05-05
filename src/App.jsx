@@ -4,11 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hello from './components/Hello.jsx';
 import ProfileCard from './components/ProfileCard.jsx';
+import Fruits from './components/Fruits.jsx';
 function App() {
-
-  return (
+ const student={
+  name:"rushaid",
+ }
+return (
     <>
-   <ProfileCard username="Rushaid" bio="developer" location="Manjeri"/>
+   <Fruits/>
     </>
   )
 }
