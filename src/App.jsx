@@ -6,15 +6,20 @@ import Hello from './components/Hello.jsx';
 import ProfileCard from './components/ProfileCard.jsx';
 import Fruits from './components/Fruits.jsx';
 import Conditional from './components/Conditional.jsx';
+import CondicompoT from './components/CondicompoT.jsx';
+import CondicompoF from './components/CondicompoF.jsx';
 function App() {
- const student={
-  name:"rushaid",
- }
-return (
-    <>
-   <Conditional/>
-    </>
+const display=false;
+if(display){
+  return(
+    <CondicompoT/>
   )
+}
+else{
+  return(
+    <CondicompoF/>
+  )
+}
 }
 
 export default App
