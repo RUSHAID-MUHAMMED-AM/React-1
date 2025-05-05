@@ -1,3 +1,5 @@
+import Fruit from './Fruit.jsx';
+
 export default function Fruits(){
     const fruits=[
        { name:"Apple", price:10, emogi:"🍎"},
@@ -7,9 +9,12 @@ export default function Fruits(){
     ]
     return(
         <div>
-         <ul>
-            {fruits.map((fruit) => <li key={fruit.name}>{fruit.emogi} {fruit.name} $ {fruit.price}</li>)}
-         </ul>
+            <ul>
+            {fruits.map((fruit)=>(
+            <Fruit key={fruit.name} name={fruit.name} price={fruit.price} emogi={fruit.emogi}/>
+            ))}
+            </ul>
+        
         </div>
     )
 }

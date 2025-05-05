@@ -5,13 +5,14 @@ import './App.css'
 import Hello from './components/Hello.jsx';
 import ProfileCard from './components/ProfileCard.jsx';
 import Fruits from './components/Fruits.jsx';
+import Conditional from './components/Conditional.jsx';
 function App() {
  const student={
   name:"rushaid",
  }
 return (
     <>
-   <Fruits/>
+   <Conditional/>
     </>
   )
 }
