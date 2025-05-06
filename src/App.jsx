@@ -8,18 +8,11 @@ import Fruits from './components/Fruits.jsx';
 import Conditional from './components/Conditional.jsx';
 import CondicompoT from './components/CondicompoT.jsx';
 import CondicompoF from './components/CondicompoF.jsx';
+import Event from './components/Event.jsx';
 function App() {
-const display=false;
-if(display){
   return(
-    <CondicompoT/>
+<Event/>
   )
-}
-else{
-  return(
-    <CondicompoF/>
-  )
-}
 }
 
 export default App

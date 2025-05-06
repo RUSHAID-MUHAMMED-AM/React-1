@@ -1,11 +1,12 @@
 export default function Fruit({name,price,emogi}){
     return (
-        <div>
+        <>
             
-    <li>
-       {emogi} {name} {price}
-    </li>
     
-    </div>
+        {price>20? <li>{emogi} {name} {price}</li>:""}
+       
+    
+    
+    </>
     )
 }
