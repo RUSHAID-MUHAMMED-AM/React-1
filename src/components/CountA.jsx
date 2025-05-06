@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Count(){
+export default function CountA(){
     const[count,setCount]=useState(0);
     return(
         <div>

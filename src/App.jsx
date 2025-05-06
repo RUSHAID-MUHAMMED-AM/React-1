@@ -9,10 +9,11 @@ import Conditional from './components/Conditional.jsx';
 import CondicompoT from './components/CondicompoT.jsx';
 import CondicompoF from './components/CondicompoF.jsx';
 import Event from './components/Event.jsx';
-import Count from './components/Count.jsx';
+import CountA from './components/CountA.jsx';
+import CountB from './components/CountB.jsx';
 function App() {
   return(
-<Count/>
+<CountB/>
   )
 }
 
