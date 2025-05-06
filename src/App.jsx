@@ -11,9 +11,10 @@ import CondicompoF from './components/CondicompoF.jsx';
 import Event from './components/Event.jsx';
 import CountA from './components/CountA.jsx';
 import CountB from './components/CountB.jsx';
+import Input from './components/Input.jsx';
 function App() {
   return(
-<CountB/>
+<Input/>
   )
 }
 
