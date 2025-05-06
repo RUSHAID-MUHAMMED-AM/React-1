@@ -12,9 +12,10 @@ import Event from './components/Event.jsx';
 import CountA from './components/CountA.jsx';
 import CountB from './components/CountB.jsx';
 import Input from './components/Input.jsx';
+import InputB from './components/InputB.jsx';
 function App() {
   return(
-<Input/>
+<InputB/>
   )
 }
 
